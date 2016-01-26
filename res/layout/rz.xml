@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+	<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:background="@drawable/danghangklanbj"
+        >
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="认证状态"    
+        android:textSize="@dimen/titlesize"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+            />
+        <LinearLayout 
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/rz_back"
+        android:gravity="center_vertical" 
+            >
+        <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/back"
+            />    
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"  
+    android:background="#eee" 
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/rz_state_lible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已认证"
+                android:textSize="15sp"
+                android:layout_marginRight="5dp"
+                />
+            <ImageView 
+                android:id="@+id/rz_state_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/rz_done"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/account_bg2"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="账户类型"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:text="个体经营户"
+                android:textColor="#333"
+                android:textSize="14sp" />
+        </LinearLayout>
+		<ImageView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/long_line"
+		    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="姓名"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/rz_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:text="王尼玛"
+                android:textColor="#333"
+                android:textSize="14sp" />
+        </LinearLayout>
+		<ImageView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/long_line"
+		    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="身份证号"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/rz_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:text="51012313213213132"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+	<LinearLayout
+	android:id="@+id/rz_plan"
+	android:layout_width="match_parent"
+	android:layout_height="50dp"
+	android:layout_marginTop="10dp"
+	android:orientation="horizontal"
+	android:background="@drawable/more_list_selector"
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+	android:gravity="center_vertical"
+        >
+	<TextView 
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:textColor="#666"
+	android:textSize="14sp"
+	android:text="证件审核"
+	android:gravity="center_vertical"   
+	    />
+	<TextView
+	android:id="@+id/rz_state"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="2"
+	android:textColor="#666"
+	android:textSize="14sp"
+	android:gravity="center_vertical|end"   
+	android:text="审核通过"
+	android:layout_marginRight="10dp"
+	    />    
+	<ImageView 
+	android:layout_width="10dp"
+	android:layout_height="15dp"
+	android:src="@drawable/more_tight"
+	    />
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:layout_marginTop="10dp" >
+	<TextView
+	        android:id="@+id/rz_fail_reason"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="16sp"
+	        android:background="#fff"
+	        android:gravity="center"
+	        />
+	    <LinearLayout
+	        android:id="@+id/rz_done_on"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/account_bg2"
+	        android:orientation="vertical" >
+	        <LinearLayout
+	            android:id="@+id/grade_rule"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:paddingLeft="20dp"
+	            android:paddingRight="20dp"
+	            android:layout_weight="1"
+	            android:background="@drawable/list_mid_selector"
+	            android:orientation="horizontal" 
+	            android:gravity="center_vertical"
+	            >
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:gravity="center_vertical"
+	                android:text="用户等级"
+	                android:textColor="#666" />
+
+	            <TextView
+	                android:id="@+id/vip_grade"
+	                android:layout_width="100dp"
+	                android:layout_height="18dp"
+	                android:gravity="end|center_vertical"
+	                android:text="普通会员"
+	                android:textColor="#666"
+	                android:layout_marginRight="10dp"
+	                />
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="15dp"
+	                android:src="@drawable/more_tight"
+	                 />
+	        </LinearLayout>
+	        <ImageView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginRight="20dp"
+	            android:src="@drawable/long_line" />
+	        <LinearLayout
+	            android:id="@+id/to_upgrade"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:paddingLeft="20dp"
+	            android:paddingRight="20dp"
+	            android:background="@drawable/list_mid_selector"
+	            android:gravity="center_vertical"
+	            android:orientation="horizontal"
+	             >
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="2"
+	                android:gravity="center_vertical"
+	                android:text="我要升级"
+	                android:textColor="#666" />
+
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:gravity="end|center_vertical"
+	                android:text="可提高账户安全，提现额度"
+	                android:textColor="#666" />
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="15dp"
+	                android:src="@drawable/more_tight" />
+	        </LinearLayout>
+	    </LinearLayout>
+	</RelativeLayout>
+
+	<Button
+	    android:id="@+id/rz_ok"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@drawable/buttonselector"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="20dp"
+	    android:textColor="#fff"
+	    android:textSize="16sp"
+	    android:text="重新认证"
+	    />    
+	</LinearLayout>
+</LinearLayout>

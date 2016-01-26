@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal" >
+    <TextView 
+    android:id="@+id/detail_item1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:gravity="center_vertical|start"
+    android:textSize="16sp"
+    android:textColor="#666"
+    android:text="交易名称"    
+        />
+	<TextView 
+    android:id="@+id/detail_item2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_vertical|end"
+    android:textSize="15sp"
+    android:textColor="#333"
+    android:text="手机号普通提款"    
+        />
+</LinearLayout>

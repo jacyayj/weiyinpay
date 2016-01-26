@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlesize">16sp</dimen>
+    <dimen name="oknext">50dp</dimen>
+    <dimen name="bodysize">13sp</dimen>
+    <dimen name="margin">20dp</dimen>
+     <string name="mainad">2.5</string>
+     <string name="mainmenu">4.7</string>
+</resources>

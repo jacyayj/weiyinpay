@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/danghangklanbj" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="升级规则"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/titlesize" />
+        <LinearLayout
+            android:id="@+id/rule_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:src="@drawable/back" 
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/result_rule"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/jpush-sdk-release1.7.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/universal-image-loader-1.9.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/meSdk-1.1.4-me11-20141031.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/MobTools.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Bluetooth-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Core-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Douban-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Email-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Facebook-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-QQ-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-QZone-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Renren-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-ShortMessage-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-SinaWeibo-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-TencentWeibo-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Wechat-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Wechat-Core-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Wechat-Favorite-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ShareSDK-Wechat-Moments-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/xUtils-2.6.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/BASE64.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/wisepadapi-android-2.5.2.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/appcompat_v7"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_31"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cz.MainActivity" >
+
+    <item 
+        android:id="@+id/exit" 
+        android:title="退出" 
+        android:orderInCategory="100"
+        android:icon="@drawable/logo"
+        android:numericShortcut="2"
+        android:menuCategory="alternative"
+        />
+	<item 
+	    android:id="@+id/cancle" 
+	    android:title="注销" 
+	    android:orderInCategory="100"
+        android:icon="@drawable/logo"
+        android:numericShortcut="2"
+        android:menuCategory="alternative"
+	    />
+	
+	 
+</menu>

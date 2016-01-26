@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/danghangklanbj"
+    android:clipToPadding="false"
+	android:fitsSystemWindows="true"
+    >
+   <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+      android:background="@drawable/danghangklanbj"
+        >
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本信息"    
+        android:textSize="@dimen/titlesize"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+            />
+        <LinearLayout 
+            android:id="@+id/version_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"    
+            >
+       <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:src="@drawable/back" 
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+            />    
+        </LinearLayout>
+    </RelativeLayout> 
+
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="1"
+       android:background="#eee"
+       >
+       <RelativeLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:layout_weight="1">
+
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/tubiao" />
+           
+       </RelativeLayout>
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:background="@drawable/account_bg3"
+           android:layout_weight="0.1">
+           <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginLeft="34dp"
+                   android:text="微银支付" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginRight="37dp"
+                   android:text="V1.1.0" />
+
+           </RelativeLayout>
+           
+       </LinearLayout>
+       
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="10">
+            
+            
+        </LinearLayout>
+       
+       
+       
+   </LinearLayout>
+   
+   
+</LinearLayout>

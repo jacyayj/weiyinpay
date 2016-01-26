@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/menu_start_connection"
+        android:title="@string/start_connection"
+        android:visible="true" />
+    <item android:id="@+id/menu_stop_connection"
+        android:title="@string/stop_connection"
+        android:visible="true" />
+    <item android:id="@+id/menu_get_deivce_info"
+        android:title="@string/get_info"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_inject_session_key"
+        android:title="@string/inject_session_key"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_enable_input_amount"
+        android:title="@string/enable_input_amount"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_encrypt_data"
+        android:title="@string/encrypt_data"
+        android:orderInCategory="100" />
+    
+    </menu>

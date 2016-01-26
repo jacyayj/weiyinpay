@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlesize">16sp</dimen>
+    <dimen name="bodysize">11sp</dimen>
+    <string name="loginreg">0.8</string>
+    <string name="mainad">2.35</string>
+    <string name="mainmenu">4.6</string>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:background="@drawable/danghangklanbj"
+        >
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交易详情"    
+        android:textSize="@dimen/titlesize"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+            />
+        <LinearLayout 
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/t_back"
+        android:gravity="center_vertical"    
+            >
+        <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="10dp"
+            />
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textColor="#fff"
+            />      
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="vertical"
+        android:background="#eee"
+        >
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" 
+        android:orientation="vertical"
+        android:background="@drawable/trade_bg"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="交易名称"
+            android:textColor="#666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="xxxxxxx"
+            android:textColor="#333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    	<ImageView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="1px"
+    	    android:background="#E2E2E2"
+    	    />
+    	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="提款账户"
+            android:textColor="#666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/t_draw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="xxxxxxx"
+            android:textColor="#333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <ImageView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="0.5px"
+    	    android:background="#E2E2E2"
+    	    />
+    	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:text="提款转入账号"
+            android:textColor="#666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/t_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="xxxxxxx"
+            android:textColor="#333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <ImageView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="1px"
+    	    android:background="#E2E2E2"
+    	    />
+    	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="总金额"
+            android:textColor="#666"
+            android:textSize="13sp" />
+
+        <TextView
+        android:id="@+id/t_money" 
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|end"
+        android:text="xxxxxxx"
+        android:textColor="#FCA86F"
+        android:textSize="15sp"             
+            />
+    </LinearLayout>
+    <ImageView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="1px"
+    	    android:background="#E2E2E2"
+    	    />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="交易时间"
+            android:textColor="#666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/t_spdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="xxxxxxx"
+            android:textColor="#333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <ImageView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="1px"
+    	    android:background="#E2E2E2"
+    	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="支付方式"
+            android:textColor="#666"
+            android:paddingBottom="2dp"   
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/t_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="xxxxxxx"
+            android:textColor="#333"
+            android:paddingBottom="2dp"   
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+    	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3" 
+        android:orientation="vertical"
+        >
+
+    		<Button
+    		    android:id="@+id/t_ok"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="@dimen/oknext"
+    		    android:background="@drawable/buttonselector"
+    		    android:layout_marginLeft="@dimen/margin"
+    		    android:layout_marginRight="@dimen/margin"
+    		    android:text="查看资金动态"
+    		    android:textColor="#ffffff"
+    		    android:textSize="18sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
